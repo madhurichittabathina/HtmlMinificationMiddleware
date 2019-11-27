@@ -15,7 +15,7 @@ jobs:
       run: dotnet build --configuration Release
     - name: Unit Tests
       run: dotnet test
-    - name: Build NuGet Package
+    - name: Build NuGet Packagec
       run: dotnet pack ./src/HtmlMinificationMiddleware/HtmlMinificationMiddleware.csproj --configuration Release -o NuGetPackages
     - name: Analyze with SonarCloud
       uses: sonarsource/sonarcloud-github-action@master
