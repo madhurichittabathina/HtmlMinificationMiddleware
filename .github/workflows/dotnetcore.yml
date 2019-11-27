@@ -34,4 +34,4 @@ jobs:
     # Artifact name
     name: 
     # Directory containing files to upload
-      path: /home/runner/work/HtmlMinificationMiddleware/HtmlMinificationMiddleware/src/HtmlMinificationMiddleware/bin/Release/netstandard2.0/HtmlMinificationMiddleware.dll
+    path: /home/runner/work/HtmlMinificationMiddleware/HtmlMinificationMiddleware/src/HtmlMinificationMiddleware/bin/Release/netstandard2.0/HtmlMinificationMiddleware.dll
