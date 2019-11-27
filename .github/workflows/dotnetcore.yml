@@ -28,3 +28,10 @@ jobs:
     #  run: |
     #    nuget sources Add -Name "GPR" -Source "https://nuget.pkg.github.com/raknas999/index.json" -UserName raknas999 -Password ${{ secrets.GITHUB_TOKEN }}
     #    nuget push ./src/HtmlMinificationMiddleware/NuGetPackages/HtmlMinificationMiddleware.2.2.1.nupkg -Source "GPR"
+    - name: Upload artifact
+      uses: actions/upload-artifact@v1.0.0
+      with:
+    # Artifact name
+    name: 
+    # Directory containing files to upload
+      path: 
